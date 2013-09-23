@@ -276,7 +276,8 @@ $scope.saveTask_Name=function(task_id,task_name) {
 					
 					//get message from array of data.
 					$scope.message = data.msg;
-										
+					
+					
 				    }
 	                 //display the task update message.			    
   					 
@@ -284,7 +285,10 @@ $scope.saveTask_Name=function(task_id,task_name) {
 			         //alert-success class add to alert-msg.
 			         angular.element('.alert-msg').addClass('alert-success');
 				}
-    			    	
+    			
+    			
+			
+	    	
     			}).error(function(data, status, headers, config) {
     		     // called asynchronously if an error occurs
     			// or server returns response with an error status.
