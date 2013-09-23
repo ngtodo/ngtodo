@@ -1,0 +1,193 @@
+/**
+* @package			Joomla.site
+* @subpackage		NG Todo
+* @author			Kumar
+* @copyright		Weblogicx India Private Limited. All rights reserved.
+* @licence			GNU GPL V2 or later
+*/
+
+
+@CHARSET "UTF-8";
+.ngtodo h3 {	
+	color: #D74634;
+}
+
+.ngtodo li {
+	font-size: 14px;
+	padding-top:9px;
+	padding:9px;	
+}
+
+
+
+li:hover
+{
+cursor:pointer;
+background:#FFF1DF;
+}
+
+.projectTitle:hover
+{
+color:#D74634;
+}
+
+.projectStyle:hover
+{
+background-color:#DCDCDC;
+}
+
+.done-true
+{
+	text-decoration:line-through;
+	color:#9D9DA2;
+}
+
+.done-true:hover
+{
+text-decoration:line-through;
+color:#9D9DA2;
+}
+
+.text_box
+{
+	width:450px;
+	height:70px;
+}
+.text_area
+{
+	width:350px;
+	height:30px;
+}
+
+.text_areaProject
+{
+height:30px;
+}
+.control-group 
+{
+    margin-left: 317px;
+    margin-top:-26px;
+}
+
+.icon-list
+{
+	margin-left:-20px;
+    padding-right:2px;
+	color:#DCDCDC;
+}
+
+.icon-list:hover
+{
+	color:#787878;
+}
+.projectStyle
+{
+	color:#313131;
+}
+.tasktable
+{
+	padding-top:15px;
+	padding-bottom:15px;
+}
+
+
+input[type="radio"], input[type="checkbox"] 
+{
+margin:0px;
+}
+
+
+btn .projectSubmit
+{
+	background:#A63C00;
+}
+
+.dateStyle
+{
+	background-color:#FFF1DF;
+	color:#838383;
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px;
+    padding-right:3px;
+    font-size:11px;
+    margin-top:-23px;
+    margin-right:12px;
+    float:right;
+    
+}
+
+
+.btn-group > .btn, .btn-group >.dropdown-menu li > a:hover, .dropdown-menu li > a:focus, .dropdown-submenu:hover > a {
+    background-color: #FFF1DF;
+    background-image: linear-gradient(to bottom, #FFF1DF, #FFF1DF);
+    background-repeat: repeat-x;
+    color: #D74634;
+    text-decoration: none;
+}
+
+.ngtodo .btn-primary {
+    background-color: #D84635;
+    background-image: linear-gradient(to bottom, #D84635, #D84635);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.ngtodo .btn-primary:hover, .ngtodo .btn-primary:active, .ngtodo .btn-primary.active,.ngtodo .btn-primary.disabled, .ngtodo .btn-primary[disabled] {
+    background-color: #D84635;
+    color: #FFFFFF;
+}
+.icon-chevron-down
+{
+ color:#B9B9B9;
+ float:right;
+ margin-left: -15px;
+ margin-right: -5px;
+} 
+.icon-chevron-down:hover
+{
+ color:#222222;
+}
+.scrollbottom, .cancel{
+	margin-left:10px;
+	color:#D64534;
+}
+.scrollbottom:hover, .cancel:hover{
+	margin-left:10px;
+	color:#D64534;
+}
+
+
+.btn-group > .btn, .btn-group > .dropdown-menu {
+
+margin-left: 296px;
+margin-top: -25px;
+}
+
+.btn-group:first-child {
+    margin-left: 4px;
+}
+
+.btn-group : hover
+{
+background-color:#dcdcdc;
+} 
+
+.tasknameStyle:hover
+{
+color:#D74634;
+}
+
+#taskDropdown 
+{
+margin-left: 375px;
+}
+.site-title
+{
+color: #D74634;
+}
+
+.site-title:hover
+{
+color: #D74634;
+}

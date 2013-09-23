@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="2.5.0" method="upgrade">
+<name>COM_NGTODO</name>
+<creationDate>August 2013</creationDate>
+<author>Kumar</author>
+<authorEmail>support@weblogicxindia.com</authorEmail>
+<authorUrl>http://weblogicxindia.com</authorUrl>
+<copyright>Weblogicx India Private Limited. All rights reserved</copyright>
+<license>GNU GPL V2 or later</license>
+<version>1.0.0</version>
+<description>COM_NGTODO_DESCRIPTION</description>
+
+<install>
+   <sql>
+     <file charset="utf8" driver="mysql">install.mysql.sql</file>
+   </sql>
+</install>
+
+<files folder="site">
+<folder>controllers</folder>
+<folder>helpers</folder>
+<folder>languages</folder>
+<folder>models</folder>
+<folder>views</folder>
+<filename>index.html</filename>
+<filename>ngtodo.php</filename>
+</files>
+
+ <media destination="ngtodo" folder="media">
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>fonts</folder>
+		<filename>index.html</filename>		
+</media>
+
+<languages folder="site">
+<language tag="en-GB">languages/en-GB/en-GB.com_ngtodo.ini</language>
+</languages>
+
+<administration>
+<menu link="option=com_ngtodo">COM_NGTODO</menu>
+
+<files folder="admin">
+<folder>controllers</folder>
+<folder>languages</folder>
+<folder>models</folder>
+<folder>helpers</folder>
+<folder>tables</folder>
+<folder>views</folder>
+<filename>ngtodo.php</filename>
+<filename>index.html</filename>
+<filename>install.mysql.sql</filename>
+</files>
+
+<languages folder="admin">
+<language tag="en-GB">languages/en-GB/en-GB.com_ngtodo.ini</language>
+<language tag="en-GB">languages/en-GB/en-GB.com_ngtodo.sys.ini</language>
+</languages>
+
+</administration>
+
+</extension>
