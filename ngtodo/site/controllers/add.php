@@ -1,5 +1,4 @@
 <?php
-
 /**
  * @package			Joomla.site
  * @subpackage		NG Todo
@@ -131,4 +130,4 @@ class NGTodoControllersAdd extends NGTodoControllersDisplay {
 	}
 	
 	
-}	
+}// no close tag	
