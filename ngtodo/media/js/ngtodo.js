@@ -23,10 +23,8 @@ myapp.controller('TodoCtrl',function ($scope, $http, $cookieStore, $element , $t
 		//Get project id from args.
 		project_id = args.project_id;		
 		
-		//alert(project_id);
-		
 		$scope.task_project_id = project_id;
-		//alert(project_id);
+		
 		//Get task_id from args.
 		task_id = args.task_id;
     
@@ -256,9 +254,7 @@ $scope.tempDelete_State=function(task_id,task_name,state) {
 //save task statements
 $scope.saveTask_Name=function(task_id,task_name) {
         	
-        	//var project_id = $cookieStore.get('project_id');
         	
-        	var newtask_id=$cookieStore.get('task_id');
         	//post request method
             $http({
     			method:'POST',
@@ -280,8 +276,7 @@ $scope.saveTask_Name=function(task_id,task_name) {
 					
 					//get message from array of data.
 					$scope.message = data.msg;
-					alert("welcome");
-					
+										
 				    }
 	                 //display the task update message.			    
   					 
@@ -289,10 +284,7 @@ $scope.saveTask_Name=function(task_id,task_name) {
 			         //alert-success class add to alert-msg.
 			         angular.element('.alert-msg').addClass('alert-success');
 				}
-    			
-    			
-			
-	    	
+    			    	
     			}).error(function(data, status, headers, config) {
     		     // called asynchronously if an error occurs
     			// or server returns response with an error status.

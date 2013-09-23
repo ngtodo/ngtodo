@@ -123,10 +123,7 @@ NGTodoHelpersHtml::loadNGFiles ( 'scroll' );
 				</li>
          	</ul><!-- list projects ends -->	
          	
-         	
-         							
-			    	
-		   		<!-- add projects - form starts-->       
+         		<!-- add projects - form starts-->       
 		   		<form ng-submit="addProject()">
 			    	<input type="project_name" ng-model="projectText" size="30" placeholder="<?php echo JText::_('COM_NGTODO_ADD_PROJECT_PLACEHOLDER')?>">
 			    	<br><br>
@@ -281,7 +278,7 @@ NGTodoHelpersHtml::loadNGFiles ( 'scroll' );
 				<input class="input_text btn btn-primary" type="submit" value="<?php echo JText::_('COM_NGTODO_ADD'); ?>" ng-show="hideElement">
 					
 				<!-- cancel task -->
-				<a  class="cancel" href="" ng-click="cancelTask()" ng-show="hideElement"><?php echo JText::_('COM_NGTODO_CANCEL_TASK')?></a>
+				<a  class="cancel" href="#" ng-click="cancelTask()" ng-show="hideElement"><?php echo JText::_('COM_NGTODO_CANCEL_TASK')?></a>
 			    
 				<!--Calender div starts-->		
 				<div class="control-group input-append">
