@@ -20,6 +20,9 @@ NGTodoHelpersHtml::loadNGFiles ( 'ngproject' );
 				<h4> Introduction Angularjs</h4>
 				<p>Angularjs maintained by Google</p>
 				
+				
+				
+				
 			</div>
 		</div>
 		<div class="span4">
@@ -38,31 +41,6 @@ NGTodoHelpersHtml::loadNGFiles ( 'ngproject' );
 			
 	</div>
 </div>
-<!-- container for help tags starts here -->
 
-<!--  About Install Apps starts here  -->
-
-<h3> Install our free apps</h3>
-<div id="secondhelp">
-	<div class="row-fluid">
-			<div class=" well span3">
-				<h5>Andriod Phone</h5>
-				
-			</div>
-			<div class="well span3">
-				<h5>Andriod Tablet</h5>
-				
-			</div>
-			<div class="well span3">
-				<h5>Windows</h5>
-				
-			</div>
-			<div class="well span3">
-				<h5>Andriod Phone</h5>
-				
-			</div>
-	</div>
-</div>
-<!--  About Install Apps ends here  -->
 </div>
 
