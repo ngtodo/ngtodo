@@ -23,22 +23,9 @@ NGTodoHelpersHtml::loadNGFiles ( 'ngproject' );
 				
 				
 				
+				
 			</div>
 		</div>
-		<div class="span4">
-			<div class="well">
-				<h4> Introduction Todos</h4>
-				<p>Learn the basics Todos</p>
-			</div>
-		</div>
-		<div class="span4">
-			<div class="well">
-				<h4> Introduction Angularstrap</h4>
-				<p>Learn the basics Angularstrap</p>
-			</div>
-		</div>
-		
-			
 	</div>
 </div>
 
