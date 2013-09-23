@@ -195,7 +195,7 @@ $scope.setState_Delete=function(task_id,state,index) {
 			
 		    $scope.$apply(function () {
 		    	
-		    	//successfully project added message
+		    	//hide the delete success message
 		    	$scope.deleteSuccess=false;
 		    });
 		    }, 3000);
@@ -276,8 +276,7 @@ $scope.saveTask_Name=function(task_id,task_name) {
 					
 					//get message from array of data.
 					$scope.message = data.msg;
-					
-					
+										
 				    }
 	                 //display the task update message.			    
   					 
@@ -286,9 +285,6 @@ $scope.saveTask_Name=function(task_id,task_name) {
 			         angular.element('.alert-msg').addClass('alert-success');
 				}
     			
-    			
-			
-	    	
     			}).error(function(data, status, headers, config) {
     		     // called asynchronously if an error occurs
     			// or server returns response with an error status.
